@@ -20,7 +20,7 @@ available campaign type, and why?"* — answered with evidence, uncertainty and 
 | **Hillstrom e-mail experiment** | secondary: causal / incremental response, campaign-type choice | 64,000, **randomised** 3 arms | only small interpretable randomised test with a choice of campaign |
 
 ## 4. Methodology & architecture
-<img src="dashboard/assets/architecture.png" width="430" align="right" alt="architecture">
+<img src="dashboard/assests/architecture.png" width="430" align="right" alt="architecture">
 
 1. **Audit & cleaning** — 183 duplicate registrations and 38 conflicting-label rows removed (logged), invalid values flagged.
 2. **SQL analytics** — 14 SQLite queries (CTEs, window functions, JOINs, CASE, date/rolling) answering business questions; 25/25 numbers cross-checked against pandas.
