@@ -19,10 +19,6 @@ available campaign type, and why?"* — answered with evidence, uncertainty and 
 | **iFood CRM case** | primary: value, segments, campaigns, channels, response model, allocation | 2,240 rows → **2,019 customers** after de-duplication; 6 ordered campaigns | only candidate with multiple campaigns per customer **and** real cost (3 MU/contact) + revenue (11 MU/response) |
 | **Hillstrom e-mail experiment** | secondary: causal / incremental response, campaign-type choice | 64,000, **randomised** 3 arms | only small interpretable randomised test with a choice of campaign |
 
-Never merged (different company, customers, era). Six candidates were scored on 23 criteria → [`DATASET_EVALUATION.md`](DATASET_EVALUATION.md);
-field-level scope → [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md); provenance/licenses → [`DATA_SOURCES.md`](DATA_SOURCES.md).
-**Not in the data (so not claimed):** campaign dates, delivery channel, channel cost, transactions, acquisition channel, CLV.
-
 ## 4. Methodology & architecture
 <img src="dashboard/assets/architecture.png" width="430" align="right" alt="architecture">
 
