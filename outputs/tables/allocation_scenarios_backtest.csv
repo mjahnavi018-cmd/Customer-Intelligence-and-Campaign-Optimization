@@ -1,0 +1,7 @@
+scenario,rule,contacts,budget_used_mu,responses,response_rate,profit_mu,share_of_all_responders_captured
+A  Mass contact (what the pilot did),contact every customer,2019,6057.0,294,0.14561664190193166,-2823.0,1.0
+B  Historical-responder rule,contact customers who accepted >=1 of C1-C5,417,1251.0,168,0.4028776978417266,597.0,0.5714285714285714
+C  RFM top 20%,highest R+F+M scores,404,1212.0,135,0.3341584158415842,273.0,0.45918367346938777
+D  Value-focused top 20%,highest 2-yr spend,404,1212.0,136,0.33663366336633666,284.0,0.46258503401360546
+E  Model top 20%,highest predicted response (temporal LR),404,1212.0,137,0.33910891089108913,295.0,0.46598639455782315
+F  Model ex-ante break-even rule,contact if model p >= 0.273 (model calibrated to C2-C5 base rates),140,420.0,81,0.5785714285714286,471.0,0.2755102040816326

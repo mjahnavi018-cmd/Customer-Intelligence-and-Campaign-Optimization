@@ -1,0 +1,33 @@
+check,result,treatment,dataset
+duplicate IDs,0,none,ifood
+rows identical except ID (incl. Response),182,duplicate registrations -> remove extra copies,ifood
+rows identical except ID & Response (conflicting label groups),19,"same profile, contradictory Response -> exclude group",ifood
+Income missing,24,impute (median) + missing flag,ifood
+"Income > 200,000 (implausible placeholder 666,666)",1,set to missing + flag,ifood
+Income extreme outliers (3xIQR),1,reviewed,ifood
+Year_Birth < 1920 (age > 94 at 2014),3,set age to missing + flag,ifood
+"Marital_Status invalid ('Absurd','YOLO')",4,map to 'Unknown',ifood
+Marital_Status 'Alone',3,map to 'Single',ifood
+Education '2n Cycle' vs 'Master' (ambiguous coding),203,kept as-is; documented,ifood
+Dt_Customer unparseable,0,none,ifood
+Dt_Customer range,2012-07-30 .. 2014-06-29,tenure reference = max+1 day,ifood
+Z_CostContact constant,True,used as cost/contact = 3 MU,ifood
+Z_Revenue constant,True,used as revenue/response = 11 MU,ifood
+customers with 0 web+catalog+store purchases,6,flag,ifood
+NumDealsPurchases > total channel purchases,3,flag (deals are a subset of purchases),ifood
+negative monetary values,0,none,ifood
+Recency distribution ~uniform 0-99 (possible synthetic),0.037,coefficient of variation of decile counts; documented as data-provenance caveat,ifood
+Complain = 1,21,rare; kept,ifood
+AcceptedCmp1 acceptance rate,0.0643,class imbalance,ifood
+AcceptedCmp2 acceptance rate,0.0134,class imbalance,ifood
+AcceptedCmp3 acceptance rate,0.0728,class imbalance,ifood
+AcceptedCmp4 acceptance rate,0.0746,class imbalance,ifood
+AcceptedCmp5 acceptance rate,0.0728,class imbalance,ifood
+Response acceptance rate,0.1491,class imbalance,ifood
+spend > 0 but conversion = 0 (or vice versa),0,none,hillstrom
+mens = womens = 0,0,none,hillstrom
+zip_code typo 'Surburban',28776,rename to 'Suburban',hillstrom
+fully identical rows,6562,"kept: 12 low-cardinality fields, no customer ID -> collisions expected",hillstrom
+treatment arm sizes,"{'Womens E-Mail': 21387, 'Mens E-Mail': 21307, 'No E-Mail': 21306}",balanced ~1/3 each (randomised),hillstrom
+conversion rate,0.009,rare outcome (0.9%),hillstrom
+visit rate,0.1468,,hillstrom

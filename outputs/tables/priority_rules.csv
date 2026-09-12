@@ -1,0 +1,4 @@
+priority,rule
+P1 - Target,accepted >= 1 of the observed campaigns (back-test on pilot: 40% response vs 27.3% break-even). Ordered by model probability when budget is smaller than the tier.
+P2 - Test cell only,"never accepted, but in the top 10% of model probability among never-acceptors (back-test: ~15% response, BELOW break-even -> only as a randomised test)"
+P3 - Suppress from paid offer,never accepted and not in the non-acceptor top decile

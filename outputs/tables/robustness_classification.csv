@@ -1,0 +1,15 @@
+finding,test,stable,classification
+Prior campaign acceptance is the strongest single predictor of pilot response,top permutation importance; rule AUC under every de-dup/training window variant,True,STABLE
+Model beats the prior-acceptance rule,"paired bootstrap PR-AUC diff CI [-0.013, 0.043] must exclude 0",False,SENSITIVE / NOT CONFIRMED
+Model ranking is better than random on a later campaign,ROC-AUC CI lower bound > 0.5 for all training windows,True,STABLE
+Targeting the top 10-20% by model is profitable in the back-test,bootstrap P(profit>0) at 10% and 20% contact share > 0.95,True,STABLE
+Mass contact loses money,"true for 8/9 cost/revenue combinations (cost 2-4, revenue 8-14 MU)",False,SENSITIVE / NOT CONFIRMED
+Profit-optimal contact share,hindsight-optimal share ranges 5.0%-29.5% across cost/revenue grid,False,SENSITIVE / NOT CONFIRMED
+RFM value tier membership,Jaccard of 'High value' tier vs quintile scoring min=0.83,True,STABLE
+Exact 3x3 RFM segment membership,ARI vs quintile scoring min=0.70,False,SENSITIVE / NOT CONFIRMED
+KMeans segment structure,"ARI of alternative k vs selected: k=3:0.51, k=4:0.46, k=5:0.35, k=6:0.34",False,SENSITIVE / NOT CONFIRMED
+Pilot recency effect is real behaviour,Recency AUC is ~0.5 on C1-C5 but 0.66 on C6 -> timing artefact suspected,False,SENSITIVE / NOT CONFIRMED
+Leakage-sensitive features do not drive the temporal model,"PR-AUC full=0.412, no_recency=0.414, history+demographics=0.462",True,STABLE
+Model performance is stable across campaigns,held-out ROC-AUC by campaign 0.65-0.88,False,SENSITIVE / NOT CONFIRMED
+Mens e-mail generates more incremental spend than Womens e-mail,share of bootstrap resamples: 0.98,True,STABLE
+Womens e-mail has no conversion effect on mens-only buyers,nominal subgroup finding; not significant after BH; bootstrap sign share for >0 = 0.71,False,SENSITIVE / NOT CONFIRMED

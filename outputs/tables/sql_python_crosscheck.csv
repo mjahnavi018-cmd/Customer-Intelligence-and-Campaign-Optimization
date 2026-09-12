@@ -1,0 +1,26 @@
+check,sql,python,abs_diff,match
+acceptors C1,133.0,133.0,0.0,True
+acceptors C2,26.0,26.0,0.0,True
+acceptors C3,145.0,145.0,0.0,True
+acceptors C4,152.0,152.0,0.0,True
+acceptors C5,146.0,146.0,0.0,True
+acceptors C6 (pilot),294.0,294.0,0.0,True
+customers,2019.0,2019.0,0.0,True
+total revenue (2-yr spend),1223010.0,1223010.0,0.0,True
+top-2-decile revenue share,0.5238,0.5238,0.0,True
+pilot profit Core high-value (recent),108.0,108.0,0.0,True
+pilot profit High-value (cooling),-77.0,-77.0,0.0,True
+pilot profit High-value (lapsing),-301.0,-301.0,0.0,True
+pilot profit Low-value (cooling),-563.0,-563.0,0.0,True
+pilot profit Low-value (lapsing),-622.0,-622.0,0.0,True
+pilot profit Low-value (recent),-251.0,-251.0,0.0,True
+pilot profit Mid-value (cooling),-455.0,-455.0,0.0,True
+pilot profit Mid-value (lapsing),-524.0,-524.0,0.0,True
+pilot profit Mid-value (recent),-138.0,-138.0,0.0,True
+pilot profit total,-2823.0,-2823.0,0.0,True
+hillstrom spend/customer Control,0.6528,0.6528,0.0,True
+hillstrom spend/customer Mens,1.4226,1.4226,0.0,True
+hillstrom spend/customer Womens,1.0772,1.0772,0.0,True
+web purchases,8276.0,8276.0,0.0,True
+targeting rows,2019.0,2019.0,0.0,True
+pilot profit (pipeline table) Core high-value,108.0,108.0,0.0,True

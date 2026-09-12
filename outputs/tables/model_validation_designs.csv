@@ -1,0 +1,3 @@
+design,roc_auc,pr_auc,lift@20%
+"temporal (train C2-C5, test C6) - primary",0.7400926747510599,0.41202670721281176,2.328778541119418
+in-campaign 5-fold CV on C6 (optimistic reference),0.9146071182096027,0.658275068047038,3.671650838553243

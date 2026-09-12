@@ -1,0 +1,7 @@
+campaign_no,campaign_label,customers,acceptors,acceptance_rate,rank_by_rate
+1,C1,2019,133,0.0659,5
+2,C2,2019,26,0.0129,6
+3,C3,2019,145,0.0718,4
+4,C4,2019,152,0.0753,2
+5,C5,2019,146,0.0723,3
+6,C6 (pilot),2019,294,0.1456,1

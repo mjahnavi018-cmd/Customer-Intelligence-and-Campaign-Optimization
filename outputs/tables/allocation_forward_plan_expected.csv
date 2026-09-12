@@ -1,0 +1,7 @@
+budget_mu,contacts,expected_responses,expected_profit_mu,customers_with_positive_expected_profit_in_selection,label
+600,200,132.0846623945668,852.9312863402349,200,MODEL-EXPECTED under assumption next campaign ~ pilot (not an observed outcome)
+1200,400,190.7299479611437,898.0294275725805,311,MODEL-EXPECTED under assumption next campaign ~ pilot (not an observed outcome)
+1800,600,222.0429692645481,642.4726619100293,319,MODEL-EXPECTED under assumption next campaign ~ pilot (not an observed outcome)
+2400,800,244.63786067313717,291.01646740450906,319,MODEL-EXPECTED under assumption next campaign ~ pilot (not an observed outcome)
+3000,1000,259.498299893778,-145.51870116844202,319,MODEL-EXPECTED under assumption next campaign ~ pilot (not an observed outcome)
+6000,2000,293.8603984409479,-2767.535617149573,319,MODEL-EXPECTED under assumption next campaign ~ pilot (not an observed outcome)

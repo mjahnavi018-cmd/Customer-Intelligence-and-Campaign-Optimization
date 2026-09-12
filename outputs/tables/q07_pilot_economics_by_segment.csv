@@ -1,0 +1,10 @@
+rfm_segment,contacts,responses,response_rate,cost_mu,revenue_mu,profit_mu,verdict
+Core high-value (recent),228,72,0.3158,684.0,792.0,108.0,profitable
+High-value (cooling),220,53,0.2409,660.0,583.0,-77.0,loss-making
+Mid-value (recent),222,48,0.2162,666.0,528.0,-138.0,loss-making
+Low-value (recent),223,38,0.1704,669.0,418.0,-251.0,loss-making
+High-value (lapsing),225,34,0.1511,675.0,374.0,-301.0,loss-making
+Mid-value (cooling),225,20,0.0889,675.0,220.0,-455.0,loss-making
+Mid-value (lapsing),226,14,0.0619,678.0,154.0,-524.0,loss-making
+Low-value (cooling),228,11,0.0482,684.0,121.0,-563.0,loss-making
+Low-value (lapsing),222,4,0.018,666.0,44.0,-622.0,loss-making

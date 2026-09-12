@@ -1,0 +1,2 @@
+scope,contacts,responses,response_rate,rr_ci_low,rr_ci_high,cost,revenue,profit,roi,profit_per_contact
+pilot_all_customers,2019.0,294.0,0.14561664190193166,0.13090401289510367,0.16167524794609672,6057.0,3234.0,-2823.0,-0.46607231302625063,-1.3982169390787518

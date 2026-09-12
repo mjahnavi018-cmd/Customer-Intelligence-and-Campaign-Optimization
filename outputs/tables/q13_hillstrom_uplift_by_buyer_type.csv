@@ -1,0 +1,4 @@
+buyer_type,mens_conv_uplift,womens_conv_uplift,mens_spend_uplift,womens_spend_uplift,customers
+Mens only,0.00601,0.00063,0.6827,0.2784,28818
+Womens only,0.00572,0.00511,0.6157,0.6316,28734
+Both,0.01499,0.00533,1.825,0.1619,6448

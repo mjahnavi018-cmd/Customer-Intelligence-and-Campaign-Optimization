@@ -1,0 +1,6 @@
+case,selection_rule,ID
+Case 1 - High-value customer,highest 2-yr spend among P1 customers,1763.0
+Case 2 - High-response customer outside the RFM high-value tier,highest model p among P1 customers whose RFM value tier is not High,3725.0
+"Case 3 - At-risk (high value, lapsing) customer","high value tier, lapsing recency tier, has accepted before; highest spend",9010.0
+Case 4 - Model and rule disagree,never accepted any campaign (rule says suppress) but highest model p,1501.0
+Case 5 - Surprising campaign x segment,largest acceptance index among non-high-value segments (>=10 acceptors),

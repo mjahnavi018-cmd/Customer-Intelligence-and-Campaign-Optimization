@@ -1,0 +1,6 @@
+campaign_k,acceptors_k,next_rate_if_accepted_k,next_rate_if_not_accepted_k
+1,133,0.0902,0.0074
+2,26,0.2308,0.0697
+3,145,0.0,0.0811
+4,152,0.3487,0.0498
+5,146,0.5685,0.1127

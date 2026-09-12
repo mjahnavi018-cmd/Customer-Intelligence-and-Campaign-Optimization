@@ -1,0 +1,4 @@
+priority,customers,avg_p_next,expected_profit_mu_if_contacted,avg_hist_spend,high_value_customers
+P1 - Target,543,0.3859,676.1,1006.8,301
+P2 - Test cell only,148,0.1652,-175.0,1181.0,110
+P3 - Suppress from paid offer,1328,0.0452,-3324.0,377.7,262

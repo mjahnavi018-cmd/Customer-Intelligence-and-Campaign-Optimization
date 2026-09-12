@@ -1,0 +1,16 @@
+ID,total_spend,revenue_rank,pct_of_revenue,rfm_segment,dominant_channel,campaigns_accepted
+1763,2524,1,0.206,High-value (cooling),Mixed,4
+4580,2486,2,0.203,High-value (cooling),Mixed,4
+4475,2440,3,0.2,High-value (lapsing),Mixed,0
+5453,2352,4,0.192,Core high-value (recent),Store,1
+10133,2349,5,0.192,Core high-value (recent),Mixed,4
+9010,2346,6,0.192,High-value (lapsing),Mixed,4
+5386,2302,7,0.188,High-value (cooling),Mixed,4
+1553,2283,8,0.187,High-value (lapsing),Mixed,2
+2147,2279,9,0.186,High-value (lapsing),Store,2
+2186,2257,10,0.185,Core high-value (recent),Mixed,4
+1173,2252,11,0.184,Mid-value (lapsing),Store,3
+737,2231,12,0.182,Mid-value (cooling),Mixed,3
+6248,2217,13,0.181,High-value (cooling),Mixed,2
+3334,2211,14,0.181,High-value (cooling),Mixed,2
+7503,2209,15,0.181,High-value (cooling),Mixed,2

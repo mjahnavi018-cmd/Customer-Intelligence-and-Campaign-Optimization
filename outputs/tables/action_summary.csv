@@ -1,0 +1,6 @@
+priority,action,customers,avg_p,avg_spend,expected_profit_total
+P1 - Target,Include in next offer (responsive; lower basket value),242,0.27129473152790895,439.1652892561983,-3.8134246727063803
+P1 - Target,Include in next offer - priority (responsive + high value),301,0.4780649566348155,1463.0996677740864,679.8730714178741
+P2 - Test cell only,Randomised test cell with holdout (expected below break-even),148,0.16522350704729377,1180.9864864864865,-175.0161305270057
+P3 - Suppress from paid offer,No paid offer; high value but never accepted - review offer relevance / non-paid touch,262,0.0647965311075455,1039.0954198473282,-599.2563973480538
+P3 - Suppress from paid offer,"Suppress from paid offer (no response history, low predicted response)",1066,0.04035586569417462,215.1125703564728,-2724.7871188701083

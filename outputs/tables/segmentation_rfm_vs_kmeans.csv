@@ -1,0 +1,3 @@
+segmentation,n_segments,response_cramers_v,response_rate_range,spend_eta_squared
+rfm_segment,9,0.2671940638617504,0.2977714556661925,0.7225309700779566
+cluster_label,2,0.13450497607582432,0.09489537531407036,0.6032091229036124

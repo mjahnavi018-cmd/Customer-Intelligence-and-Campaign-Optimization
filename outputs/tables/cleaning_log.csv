@@ -1,0 +1,15 @@
+step,rows_affected,detail,dataset
+start,2240,raw rows,ifood
+parse Dt_Customer,2240,ISO date -> datetime,ifood
+Marital_Status normalisation,7,Alone->Single; Absurd/YOLO->Unknown,ifood
+drop exact duplicates (all fields but ID),183,"identical on 28 fields incl. spend, dates, outcomes -> duplicate registrations",ifood
+exclude conflicting-label duplicate groups,38,same customer profile recorded with both Response=0 and 1; true label unknowable,ifood
+"Income 666,666 placeholder -> NaN",1,flagged,ifood
+Income missing (incl. invalid),25,kept as NaN in clean table; imputed inside modelling pipelines only,ifood
+Year_Birth < 1920 -> age NaN,3,flagged,ifood
+drop constant Z_ columns,0,"Z_CostContact=3, Z_Revenue=11 moved to config economics",ifood
+final,2019,analytical customer rows,ifood
+start,64000,raw rows,hillstrom
+zip_code typo,28776,Surburban -> Suburban,hillstrom
+derive,64000,"treatment label, history_band, recency_band, buyer_type, customer_idx (row id)",hillstrom
+final,64000,no rows removed,hillstrom

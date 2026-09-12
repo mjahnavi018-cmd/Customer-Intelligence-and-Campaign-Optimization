@@ -1,0 +1,4 @@
+treatment,n,visit_rate,conversion_rate,spend_per_customer,incremental_spend_vs_control,incremental_conversion_vs_control
+Mens,21307,0.1828,0.01253,1.4226,0.7698,0.00681
+Womens,21387,0.1514,0.00884,1.0772,0.4244,0.00311
+Control,21306,0.1062,0.00573,0.6528,0.0,0.0

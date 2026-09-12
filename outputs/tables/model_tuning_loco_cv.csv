@@ -1,0 +1,9 @@
+model,params,C,loco_pr_auc,lr,depth,min_leaf
+logistic_regression,C=0.01,0.01,0.19712849899670892,,,
+logistic_regression,C=0.1,0.1,0.18083057587789547,,,
+logistic_regression,C=1.0,1.0,0.17670048227652135,,,
+logistic_regression,C=10.0,10.0,0.17609611901679562,,,
+gradient_boosting,"lr=0.03,depth=2,min_leaf=40",,0.1888648562508571,0.03,2.0,40.0
+gradient_boosting,"lr=0.05,depth=3,min_leaf=40",,0.1702500907257728,0.05,3.0,40.0
+gradient_boosting,"lr=0.05,depth=3,min_leaf=100",,0.19625571793054664,0.05,3.0,100.0
+gradient_boosting,"lr=0.1,depth=2,min_leaf=100",,0.1958238952485684,0.1,2.0,100.0

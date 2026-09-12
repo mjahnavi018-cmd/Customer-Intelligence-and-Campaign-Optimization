@@ -1,0 +1,31 @@
+assumed_cost_per_email,policy,net_incremental_per_1000_customers
+0.0,No e-mail,0.0
+0.0,E-mail all: Mens,887.5038612893788
+0.0,E-mail all: Womens,603.0174438493945
+0.0,Segment rule (buyer type x history),755.0990692218033
+0.0,Uplift model: best arm per customer,888.268232275754
+0.05,No e-mail,0.0
+0.05,E-mail all: Mens,837.5038612893788
+0.05,E-mail all: Womens,553.0174438493945
+0.05,Segment rule (buyer type x history),711.2537567218034
+0.05,Uplift model: best arm per customer,841.190107275754
+0.1,No e-mail,0.0
+0.1,E-mail all: Mens,787.5038612893788
+0.1,E-mail all: Womens,503.0174438493945
+0.1,Segment rule (buyer type x history),667.4084442218034
+0.1,Uplift model: best arm per customer,794.111982275754
+0.25,No e-mail,0.0
+0.25,E-mail all: Mens,637.5038612893788
+0.25,E-mail all: Womens,353.0174438493945
+0.25,Segment rule (buyer type x history),535.8725067218033
+0.25,Uplift model: best arm per customer,652.877607275754
+0.5,No e-mail,0.0
+0.5,E-mail all: Mens,387.50386128937885
+0.5,E-mail all: Womens,103.01744384939448
+0.5,Segment rule (buyer type x history),316.64594422180335
+0.5,Uplift model: best arm per customer,417.48698227575403
+1.0,No e-mail,0.0
+1.0,E-mail all: Mens,-112.49613871062114
+1.0,E-mail all: Womens,-396.9825561506055
+1.0,Segment rule (buyer type x history),-121.80718077819664
+1.0,Uplift model: best arm per customer,-53.29426772424595

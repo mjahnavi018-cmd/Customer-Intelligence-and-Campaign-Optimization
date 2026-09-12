@@ -1,0 +1,9 @@
+buyer_type,history_tercile,assigned_email
+Both,mid,Mens
+Both,high,Mens
+Mens only,low,Mens
+Mens only,mid,Womens
+Mens only,high,Control
+Womens only,low,Womens
+Womens only,mid,Womens
+Womens only,high,Mens

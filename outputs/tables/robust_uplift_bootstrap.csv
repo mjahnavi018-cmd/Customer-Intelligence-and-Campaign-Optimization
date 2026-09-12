@@ -1,0 +1,5 @@
+conclusion,share_of_bootstrap_resamples_true
+mens_gt_womens_spend,0.9833333333333333
+womens_gt_zero_spend,0.9966666666666667
+womens_on_mens_only_conv_gt0,0.71
+mens_on_mens_only_conv_gt0,1.0

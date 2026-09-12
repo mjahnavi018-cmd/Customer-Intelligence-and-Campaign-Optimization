@@ -1,0 +1,5 @@
+acceptance_group,customers,avg_spend,revenue_share
+0 campaigns,1476,458.2,0.553
+1 campaign,329,835.4,0.2247
+2 campaigns,126,1083.9,0.1117
+3+ campaigns,88,1537.0,0.1106
